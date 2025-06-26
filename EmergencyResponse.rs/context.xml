@@ -1,0 +1,6 @@
+<context id="EmergencyResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context">
+  <projection id="Geography" type="geography" />	
+  <projection id="Road_network" type="network" />
+  <projection id="Comunication_network" type="network" /> 
+  <projection id="cordon_network" type="network" />
+</context>
