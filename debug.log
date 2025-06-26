@@ -1,0 +1,736 @@
+FATAL [Thread-1] 2022-02-08 11:03:53,037 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Fire$$FastClassByCGLIB$$b086bad5.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token ".", delete this token
+
+	at A_Agents.Responder_Fire.step(Responder_Fire.java:485)
+	... 10 more
+FATAL [Thread-1] 2022-02-08 18:26:34,720 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1622.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Ambulance$$FastClassByCGLIB$$114dcc5d.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.NullPointerException
+	at A_Roles_Ambulance.Ambulance_Commander_ALC.CommanderBehavior_CoordinateCasualtyTransferToHospital(Ambulance_Commander_ALC.java:790)
+	at A_Roles_Ambulance.Ambulance_Commander_ALC.ALCBehavior(Ambulance_Commander_ALC.java:584)
+	at A_Agents.Responder_Ambulance.step(Responder_Ambulance.java:295)
+	... 10 more
+FATAL [Thread-1] 2022-02-08 21:06:00,087 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1099.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Ambulance$$FastClassByCGLIB$$114dcc5d.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete Statement
+
+	at A_Roles_Ambulance.Ambulance_Driver.IdentifyWTR_end(Ambulance_Driver.java:206)
+	at A_Roles_Ambulance.Ambulance_Driver.DriverBehavior_TransferCasualtytoHospital(Ambulance_Driver.java:732)
+	at A_Roles_Ambulance.Ambulance_Driver.DriverBehavior(Ambulance_Driver.java:375)
+	at A_Agents.Responder_Ambulance.step(Responder_Ambulance.java:283)
+	... 10 more
+FATAL [Thread-1] 2022-02-09 15:22:08,154 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1365.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Police$$FastClassByCGLIB$$bb25bdfd.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.NullPointerException
+	at A_Environment.Cordon.<init>(Cordon.java:57)
+	at A_Environment.Incident.CreateCordon(Incident.java:1111)
+	at A_Roles_Police.Police_Commander_PIC.SliverMeetingGET(Police_Commander_PIC.java:612)
+	at A_Roles_Police.Police_Commander_PIC.CommanderBehavior_CoordinateER(Police_Commander_PIC.java:940)
+	at A_Roles_Police.Police_Commander_PIC.PICBehavior(Police_Commander_PIC.java:750)
+	at A_Agents.Responder_Police.step(Responder_Police.java:285)
+	... 10 more
+FATAL [Thread-1] 2022-02-09 15:24:22,039 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1402.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Ambulance$$FastClassByCGLIB$$114dcc5d.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.NullPointerException
+	at A_Environment.TacticalArea.<init>(TacticalArea.java:66)
+	at A_Environment.Incident.CreateTA_CCSandloadingArea(Incident.java:1159)
+	at A_Roles_Ambulance.Ambulance_Commander_AIC.SliverMeetingGET(Ambulance_Commander_AIC.java:1129)
+	at A_Roles_Ambulance.Ambulance_Commander_AIC.CommanderBehavior_CoordinateER(Ambulance_Commander_AIC.java:1427)
+	at A_Roles_Ambulance.Ambulance_Commander_AIC.AICBehavior(Ambulance_Commander_AIC.java:1250)
+	at A_Agents.Responder_Ambulance.step(Responder_Ambulance.java:289)
+	... 10 more
+FATAL [Thread-1] 2022-02-09 18:45:35,123 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (364.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Station_Ambulance$$FastClassByCGLIB$$ff485a8f.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.NullPointerException
+	at A_Agents.Vehicle_Ambulance.AssigenResponder(Vehicle_Ambulance.java:65)
+	at A_Agents.Station_Ambulance.DispatchResourese(Station_Ambulance.java:74)
+	at A_Agents.Station_Ambulance.step(Station_Ambulance.java:201)
+	... 10 more
+WARN  [Thread-1] 2022-02-10 09:14:59,571 repast.simphony.util.ClassUtilities - Utilities.findMethod: warning, could not find method 'step([])' in class A_Environment.Incident, returning null
+FATAL [Thread-1] 2022-02-10 09:14:59,586 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (3.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:227)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_EmergencyResponse.Scenario_InformationalDependency$$FastClassByCGLIB$$899183ad.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.IllegalArgumentException: Method A_Environment.Incident.step() not found!
+	at repast.simphony.engine.schedule.CallBackAction.initMethod(CallBackAction.java:101)
+	at repast.simphony.engine.schedule.CallBackAction.<init>(CallBackAction.java:79)
+	at repast.simphony.engine.schedule.DefaultActionFactory.createAction(DefaultActionFactory.java:45)
+	at repast.simphony.engine.schedule.DefaultSchedulableActionFactory.createAction(DefaultSchedulableActionFactory.java:81)
+	at repast.simphony.engine.schedule.Schedule.schedule(Schedule.java:191)
+	at A_EmergencyResponse.Scenario_InformationalDependency.step(Scenario_InformationalDependency.java:89)
+	... 10 more
+WARN  [Thread-1] 2022-02-10 09:16:58,626 repast.simphony.util.ClassUtilities - Utilities.findMethod: warning, could not find method 'Step([])' in class A_Environment.Incident, returning null
+FATAL [Thread-1] 2022-02-10 09:16:58,626 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (3.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:227)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_EmergencyResponse.Scenario_InformationalDependency$$FastClassByCGLIB$$899183ad.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.IllegalArgumentException: Method A_Environment.Incident.Step() not found!
+	at repast.simphony.engine.schedule.CallBackAction.initMethod(CallBackAction.java:101)
+	at repast.simphony.engine.schedule.CallBackAction.<init>(CallBackAction.java:79)
+	at repast.simphony.engine.schedule.DefaultActionFactory.createAction(DefaultActionFactory.java:45)
+	at repast.simphony.engine.schedule.DefaultSchedulableActionFactory.createAction(DefaultSchedulableActionFactory.java:81)
+	at repast.simphony.engine.schedule.Schedule.schedule(Schedule.java:191)
+	at A_EmergencyResponse.Scenario_InformationalDependency.step(Scenario_InformationalDependency.java:89)
+	... 10 more
+FATAL [Thread-1] 2022-02-10 14:09:48,067 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1536.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Ambulance$$FastClassByCGLIB$$114dcc5d.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Treated cannot be resolved or is not a field
+
+	at A_Roles_Ambulance.Ambulance_Commander_CCO.UpdatePlan(Ambulance_Commander_CCO.java:241)
+	at A_Roles_Ambulance.Ambulance_Commander_CCO.CCOCommanderBehavior_CoordinateCasualtyTriageandTreatment(Ambulance_Commander_CCO.java:858)
+	at A_Roles_Ambulance.Ambulance_Commander_CCO.CCOBehavior(Ambulance_Commander_CCO.java:769)
+	at A_Agents.Responder_Ambulance.step(Responder_Ambulance.java:302)
+	... 9 more
+FATAL [Thread-1] 2022-02-10 14:49:48,158 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (577.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Police$$FastClassByCGLIB$$bb25bdfd.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.NullPointerException
+	at A_Agents.Responder.Search_RandomlyCasualty_new2(Responder.java:1987)
+	at A_Agents.Responder.Walk(Responder.java:888)
+	at A_Roles_Police.Police_Commander_PIC.CommanderBehavior_CoordinateFirstArrival(Police_Commander_PIC.java:803)
+	at A_Roles_Police.Police_Commander_PIC.PICBehavior(Police_Commander_PIC.java:749)
+	at A_Agents.Responder_Police.step(Responder_Police.java:285)
+	... 9 more
+FATAL [Thread-1] 2022-02-10 14:57:59,187 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (575.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Police$$FastClassByCGLIB$$bb25bdfd.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "List", :: expected after this token
+	The left-hand side of an assignment must be a variable
+
+	at A_Agents.Responder.Search_RandomlyCasualty_new2(Responder.java:1925)
+	at A_Agents.Responder.Walk(Responder.java:888)
+	at A_Roles_Police.Police_Commander_PIC.CommanderBehavior_CoordinateFirstArrival(Police_Commander_PIC.java:803)
+	at A_Roles_Police.Police_Commander_PIC.PICBehavior(Police_Commander_PIC.java:749)
+	at A_Agents.Responder_Police.step(Responder_Police.java:285)
+	... 9 more
+FATAL [Thread-1] 2022-02-10 15:07:27,329 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (577.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Police$$FastClassByCGLIB$$bb25bdfd.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.util.ConcurrentModificationException
+	at java.base/java.util.ArrayList$Itr.checkForComodification(ArrayList.java:1042)
+	at java.base/java.util.ArrayList$Itr.next(ArrayList.java:996)
+	at A_Agents.Responder.Search_RandomlyCasualty_new2(Responder.java:1926)
+	at A_Agents.Responder.Walk(Responder.java:888)
+	at A_Roles_Police.Police_Commander_PIC.CommanderBehavior_CoordinateFirstArrival(Police_Commander_PIC.java:803)
+	at A_Roles_Police.Police_Commander_PIC.PICBehavior(Police_Commander_PIC.java:749)
+	at A_Agents.Responder_Police.step(Responder_Police.java:285)
+	... 9 more
+FATAL [Thread-1] 2022-02-14 05:38:34,408 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (20019.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.EOC$$FastClassByCGLIB$$66488bd7.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:148)
+	at A_Agents.EOC.ReportCasualty_V_time(EOC.java:1985)
+	at A_Agents.EOC.step(EOC.java:640)
+	... 10 more
+FATAL [Thread-1] 2022-02-14 06:51:41,579 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (20019.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.EOC$$FastClassByCGLIB$$66488bd7.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.io.UncheckedIOException: java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.nio.file.FileChannelLinesSpliterator.readLine(FileChannelLinesSpliterator.java:173)
+	at java.base/java.nio.file.FileChannelLinesSpliterator.tryAdvance(FileChannelLinesSpliterator.java:101)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at A_Agents.EOC.ReportComInts(EOC.java:1810)
+	at A_Agents.EOC.step(EOC.java:639)
+	... 10 more
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.nio.charset.CoderResult.throwException(CoderResult.java:274)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at java.base/java.nio.file.FileChannelLinesSpliterator.readLine(FileChannelLinesSpliterator.java:171)
+	... 20 more
+FATAL [Thread-1] 2022-02-14 07:08:29,737 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (18940.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.EOC$$FastClassByCGLIB$$66488bd7.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.io.UncheckedIOException: java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.nio.file.FileChannelLinesSpliterator.readLine(FileChannelLinesSpliterator.java:173)
+	at java.base/java.nio.file.FileChannelLinesSpliterator.tryAdvance(FileChannelLinesSpliterator.java:101)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at A_Agents.EOC.ReportComInts(EOC.java:1811)
+	at A_Agents.EOC.step(EOC.java:639)
+	... 10 more
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.nio.charset.CoderResult.throwException(CoderResult.java:274)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at java.base/java.nio.file.FileChannelLinesSpliterator.readLine(FileChannelLinesSpliterator.java:171)
+	... 20 more
+FATAL [Thread-1] 2022-02-14 09:23:52,787 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (975.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Police$$FastClassByCGLIB$$bb25bdfd.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	CurrentMessage cannot be resolved to a variable
+	CurrentMessage cannot be resolved to a variable
+	CurrentMessage cannot be resolved to a variable
+	CurrentMessage cannot be resolved to a variable
+	CurrentMessage cannot be resolved to a variable
+	CurrentMessage cannot be resolved to a variable
+	CurrentMessage cannot be resolved to a variable
+	CurrentMessage cannot be resolved to a variable
+	CurrentMessage cannot be resolved to a variable
+	CurrentMessage cannot be resolved to a variable
+	CurrentMessage cannot be resolved to a variable
+	CurrentMessage cannot be resolved to a variable
+
+	at A_Roles_Police.Police_Commander_PIC.SliverMeetingGET(Police_Commander_PIC.java:629)
+	at A_Roles_Police.Police_Commander_PIC.CommanderBehavior_CoordinateER(Police_Commander_PIC.java:970)
+	at A_Roles_Police.Police_Commander_PIC.PICBehavior(Police_Commander_PIC.java:780)
+	at A_Agents.Responder_Police.step(Responder_Police.java:286)
+	... 9 more
+FATAL [Thread-1] 2022-02-14 09:35:47,921 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (18940.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.EOC$$FastClassByCGLIB$$66488bd7.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.io.UncheckedIOException: java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.nio.file.FileChannelLinesSpliterator.readLine(FileChannelLinesSpliterator.java:173)
+	at java.base/java.nio.file.FileChannelLinesSpliterator.tryAdvance(FileChannelLinesSpliterator.java:101)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at A_Agents.EOC.ReportComInts(EOC.java:1819)
+	at A_Agents.EOC.step(EOC.java:639)
+	... 10 more
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.nio.charset.CoderResult.throwException(CoderResult.java:274)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at java.base/java.nio.file.FileChannelLinesSpliterator.readLine(FileChannelLinesSpliterator.java:171)
+	... 20 more
+FATAL [Thread-1] 2022-02-14 10:17:52,551 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (18940.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.EOC$$FastClassByCGLIB$$66488bd7.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:148)
+	at A_Agents.EOC.ReportCasualtydead_V_time(EOC.java:2156)
+	at A_Agents.EOC.step(EOC.java:641)
+	... 10 more
+FATAL [Thread-1] 2022-02-14 10:39:17,623 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (18940.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:238)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.EOC$$FastClassByCGLIB$$66488bd7.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.io.UncheckedIOException: java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.nio.file.FileChannelLinesSpliterator.readLine(FileChannelLinesSpliterator.java:173)
+	at java.base/java.nio.file.FileChannelLinesSpliterator.tryAdvance(FileChannelLinesSpliterator.java:101)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at A_Agents.EOC.ReportComInts(EOC.java:1820)
+	at A_Agents.EOC.step(EOC.java:642)
+	... 10 more
+Caused by: java.nio.charset.MalformedInputException: Input length = 1
+	at java.base/java.nio.charset.CoderResult.throwException(CoderResult.java:274)
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:339)
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:326)
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:392)
+	at java.base/java.nio.file.FileChannelLinesSpliterator.readLine(FileChannelLinesSpliterator.java:171)
+	... 20 more
+FATAL [Thread-1] 2022-02-14 10:47:29,421 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (0.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:227)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_EmergencyResponse.Scenario_InformationalDependency$$FastClassByCGLIB$$899183ad.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+	Communication_Structure_uesd cannot be resolved or is not a field
+
+	at A_EmergencyResponse.Scenario_InformationalDependency.step(Scenario_InformationalDependency.java:120)
+	... 10 more
+FATAL [Thread-1] 2022-02-16 15:16:43,769 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (973.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Fire$$FastClassByCGLIB$$b086bad5.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The constructor Sector(int, Context<Object>, Geography<Object>, PointDestination, PointDestination, PointDestination) is undefined
+
+	at A_Environment.Incident.CreateSector2(Incident.java:1194)
+	at A_Roles_Fire.Fire_Commander_FIC.SliverMeetingGET(Fire_Commander_FIC.java:788)
+	at A_Roles_Fire.Fire_Commander_FIC.CommanderBehavior_CoordinateER(Fire_Commander_FIC.java:1129)
+	at A_Roles_Fire.Fire_Commander_FIC.FICBehavior(Fire_Commander_FIC.java:945)
+	at A_Agents.Responder_Fire.step(Responder_Fire.java:292)
+	... 9 more
+FATAL [Thread-1] 2022-02-16 18:31:16,564 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1233.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Fire$$FastClassByCGLIB$$b086bad5.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.NullPointerException
+	at A_Agents.Responder.SendMessage(Responder.java:2772)
+	at A_Agents.Responder_Fire.step(Responder_Fire.java:377)
+	... 9 more
+FATAL [Thread-1] 2022-02-18 19:12:59,425 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (633.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Police$$FastClassByCGLIB$$bb25bdfd.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.NullPointerException
+	at A_Agents.Responder_Police.step(Responder_Police.java:391)
+	... 9 more
+FATAL [Thread-1] 2022-02-18 20:23:45,799 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (632.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Police$$FastClassByCGLIB$$bb25bdfd.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.NullPointerException
+	at A_Agents.Responder_Police.step(Responder_Police.java:391)
+	... 9 more
+FATAL [Thread-1] 2022-02-21 13:28:25,499 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (212.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Police$$FastClassByCGLIB$$bb25bdfd.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.NullPointerException
+	at A_Agents.Vehicle.Generate_Shortest_Path2(Vehicle.java:186)
+	at A_Agents.Vehicle.AssignDestination2(Vehicle.java:109)
+	at A_Roles_Police.Police_Driver.DriverBehavior_GotoIncident(Police_Driver.java:161)
+	at A_Roles_Police.Police_Driver.DriverBehavior(Police_Driver.java:139)
+	at A_Agents.Responder_Police.step(Responder_Police.java:306)
+	... 9 more
+FATAL [Thread-1] 2022-02-21 13:48:28,907 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (6558.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Ambulance$$FastClassByCGLIB$$114dcc5d.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.NullPointerException
+	at A_Agents.Vehicle.Generate_Shortest_Path2(Vehicle.java:191)
+	at A_Agents.Vehicle.AssignDestination2(Vehicle.java:109)
+	at A_Roles_Ambulance.Ambulance_Driver.DriverBehavior_TransferCasualtytoHospital(Ambulance_Driver.java:821)
+	at A_Roles_Ambulance.Ambulance_Driver.DriverBehavior(Ambulance_Driver.java:389)
+	at A_Agents.Responder_Ambulance.step(Responder_Ambulance.java:304)
+	... 9 more
+FATAL [Thread-1] 2022-02-21 19:58:02,343 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (3065.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Ambulance$$FastClassByCGLIB$$114dcc5d.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	StartAmbEvacuation cannot be resolved to a variable
+
+	at A_Roles_Ambulance.Ambulance_Driver.DriverBehavior_TransferCasualtytoHospital(Ambulance_Driver.java:713)
+	at A_Roles_Ambulance.Ambulance_Driver.DriverBehavior(Ambulance_Driver.java:389)
+	at A_Agents.Responder_Ambulance.step(Responder_Ambulance.java:304)
+	... 9 more
+FATAL [Thread-1] 2022-02-21 22:01:55,205 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (19006.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:129)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:231)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_Agents.Responder_Ambulance$$FastClassByCGLIB$$114dcc5d.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.CallBackAction.execute(CallBackAction.java:127)
+	... 6 more
+Caused by: java.lang.NullPointerException
+	at A_Environment.Incident.On_RadioSystem(Incident.java:1812)
+	at A_Agents.Responder.SendMessage(Responder.java:3013)
+	at A_Agents.Responder_Ambulance.step(Responder_Ambulance.java:409)
+	... 9 more
+FATAL [Thread-1] 2022-02-26 22:30:21,960 repast.simphony.ui.GUIScheduleRunner - RunTimeException when running the schedule
+Current tick (1.0)
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:72)
+	at repast.simphony.engine.controller.ScheduledMethodControllerAction$ScheduleMethodAllAction.execute(ScheduledMethodControllerAction.java:333)
+	at repast.simphony.engine.schedule.DefaultAction.execute(DefaultAction.java:38)
+	at repast.simphony.engine.schedule.ScheduleGroup.executeList(ScheduleGroup.java:205)
+	at repast.simphony.engine.schedule.ScheduleGroup.execute(ScheduleGroup.java:227)
+	at repast.simphony.engine.schedule.Schedule.execute(Schedule.java:352)
+	at repast.simphony.ui.GUIScheduleRunner$ScheduleLoopRunnable.run(GUIScheduleRunner.java:52)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at A_EmergencyResponse.Scenario_InformationalDependency$$FastClassByCGLIB$$899183ad.invoke(<generated>)
+	at net.sf.cglib.reflect.FastMethod.invoke(FastMethod.java:53)
+	at repast.simphony.engine.schedule.DynamicTargetAction.execute(DynamicTargetAction.java:69)
+	... 7 more
+Caused by: java.lang.NoSuchMethodError: 'C_SimulationInput.InputFile$Exp[] C_SimulationInput.InputFile$Exp.values()'
+	at A_EmergencyResponse.Scenario_InformationalDependency.$SWITCH_TABLE$C_SimulationInput$InputFile$Exp(Scenario_InformationalDependency.java:28)
+	at A_EmergencyResponse.Scenario_InformationalDependency.step(Scenario_InformationalDependency.java:118)
+	... 10 more
